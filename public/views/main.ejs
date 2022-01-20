@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<%- include('partial/head') %>
+	<body>
+		<!-- Start Navbar -->
+		<%- include('partial/navbar') %>
+		<!-- End Navbar -->
+
+		<!-- Start User-List -->
+		<section id="user-list" class="container">
+			<h1 class="text-center py-3 user__main-title">User List</h1>
+			<a href="#" class="user__add-new">
+				<button type="button" class="btn btn-add">
+					<i class="fas fa-plus"></i>
+					<span class="text-white">Add New User</span>
+				</button>
+			</a>
+
+			<!-- Start User-Profile -->
+			<div class="row user__profile justify-content-lg-around">
+				<div class="col-10 col-md-5 col-lg-3 user__profile-card">
+					<div class="user__profile-card-top text-center">
+						<img src="images/female_avatar.svg" alt="Avatar" class="img-fluid" />
+						<h3>Avinska</h3>
+						<small>avinska@binar.co.id</small>
+					</div>
+					<div class="user__profile-card-body mt-3 px-3">
+						<p>ID: 1</p>
+						<p>Password: hihihi</p>
+						<div class="user__profile-settings text-center">
+							<a href="#" title="EDIT" class="mx-2"><i class="fas fa-edit"></i></a>
+							<a href="#" title="DELETE" class="mx-2"><i class="fas fa-trash-alt"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-10 col-md-5 col-lg-3 user__profile-card">
+					<div class="user__profile-card-top text-center">
+						<img src="images/male_avatar.svg" alt="Avatar" class="img-fluid" />
+						<h3>Juan</h3>
+						<small>juan@binar.co.id</small>
+					</div>
+					<div class="user__profile-card-body mt-3 px-3">
+						<p>ID: 2</p>
+						<p>Password: wkwk</p>
+						<div class="user__profile-settings text-center">
+							<a href="#" title="EDIT" class="mx-2"><i class="fas fa-edit"></i></a>
+							<a href="#" title="DELETE" class="mx-2"><i class="fas fa-trash-alt"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-10 col-md-5 col-lg-3 user__profile-card">
+					<div class="user__profile-card-top text-center">
+						<img src="images/male_avatar.svg" alt="Avatar" class="img-fluid" />
+						<h3>Kisbayu</h3>
+						<small>kisbayu@binar.co.id</small>
+					</div>
+					<div class="user__profile-card-body mt-3 px-3">
+						<p>ID: 3</p>
+						<p>Password: awokwokw</p>
+						<div class="user__profile-settings text-center">
+							<a href="#" title="EDIT" class="mx-2"><i class="fas fa-edit"></i></a>
+							<a href="#" title="DELETE" class="mx-2"><i class="fas fa-trash-alt"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-10 col-md-5 col-lg-3 user__profile-card">
+					<div class="user__profile-card-top text-center">
+						<img src="images/male_avatar.svg" alt="Avatar" class="img-fluid" />
+						<h3>Didi</h3>
+						<small>didi@didi</small>
+					</div>
+					<div class="user__profile-card-body mt-3 px-3">
+						<p>ID: 4</p>
+						<p>Password: didi</p>
+						<div class="user__profile-settings text-center">
+							<a href="#" title="EDIT" class="mx-2"><i class="fas fa-edit"></i></a>
+							<a href="#" title="DELETE" class="mx-2"><i class="fas fa-trash-alt"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-10 col-md-5 col-lg-3 user__profile-card">
+					<div class="user__profile-card-top text-center">
+						<img src="images/female_avatar.svg" alt="Avatar" class="img-fluid" />
+						<h3>Granny Smith</h3>
+						<small>grannysmith@apple</small>
+					</div>
+					<div class="user__profile-card-body mt-3 px-3">
+						<p>ID: 5</p>
+						<p>Password: apple</p>
+						<div class="user__profile-settings text-center">
+							<a href="#" title="EDIT" class="mx-2"><i class="fas fa-edit"></i></a>
+							<a href="#" title="DELETE" class="mx-2"><i class="fas fa-trash-alt"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End User-Profile -->
+		</section>
+		<!-- End Users-List -->
+
+		<!-- Start Footer -->
+		<%- include('partial/footer') %>
+		<!-- End Footer -->
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

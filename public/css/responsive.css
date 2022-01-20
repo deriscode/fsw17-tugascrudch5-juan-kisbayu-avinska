@@ -1,0 +1,8 @@
+/* Resolusi Tablet */
+@media (min-width: 767.98px) {
+	/* Start User-List */
+	.user__profile-card {
+		margin: 1.5em 1.2em;
+	}
+	/* End User-List */
+}
