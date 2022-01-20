@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<%- include('partial/head') %>
+	<body>
+		<!-- Start Navbar -->
+		<%- include('partial/navbar') %>
+		<!-- End Navbar -->
+
+		<!-- Start User-List -->
+		<!-- main -->
+		<section class="main text-center">
+			<div class="container-fluid">
+				<h1 class="m-3 p-5">User List</h1>
+				<main class="form-signin">
+					<form action="/user/<%= user.id %>?_method=PUT" method="POST">
+					<h2 class="h4 mb-2 fw-normal text-start">Edit User</h1>
+					<div class="form-floating">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name" value="<%=user.name%>">
+						<label for="floatingInput">Name</label>
+					</div>
+					<div class="form-floating">
+						<input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" value="<%=user.email%>">
+						<label for="floatingInput">Email address</label>
+					</div>
+					<div class="form-floating">
+						<input type="password" class="form-control" id="password" name="password" placeholder="Password" value="">
+						<label for="floatingPassword">Password</label>
+					</div>
+				</div>
+					<button class="btn mb-2 mt-2 text-center">Submit</button>
+			</section>
+				</div>
+				
+			</table>
+
+			<%- include('partial/footer') %>

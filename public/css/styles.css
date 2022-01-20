@@ -1,0 +1,105 @@
+.container-fluid {
+	padding: 1% 7%;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Start Navbar */
+
+.bg-custom {
+	background: linear-gradient(to right, #287d92, #b7e3e4);
+}
+
+/* End Navbar */
+
+/* Start User-List */
+
+.user__main-title {
+	color: #015270;
+}
+
+.btn-add {
+	padding: 0 15px 0 0;
+	border-radius: 2rem;
+	background-color: #88c59b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-add:focus {
+	border: 3px solid #589077 !important;
+	box-shadow: 0 0 15px #589077 !important;
+}
+
+.btn-add:hover {
+	background-color: #589077;
+}
+
+.fa-plus {
+	font-size: 1.2rem;
+	background-color: white;
+	color: #88c59b;
+	border-radius: 6em;
+	padding: 0.5em;
+	margin-right: 5px;
+}
+
+.user__profile {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.user__profile-card {
+	border-radius: 15px;
+	background: linear-gradient(315deg, #a5cccd, #c4f3f4);
+	box-shadow: -9px -9px 18px #a5cccd, 9px 9px 18px #c9fafb;
+	padding: 2em;
+	margin-top: 2em;
+	color: #015270;
+}
+
+.user__profile-card-top img {
+	width: 35%;
+	max-width: 100%;
+	border: 3px solid #287d92;
+	border-radius: 50%;
+}
+
+.user__profile-card-body {
+	font-size: 1.2rem;
+}
+
+.user__profile-settings {
+	font-size: 2rem;
+	margin: 1.4em 0;
+}
+
+.user__profile-settings .fa-edit {
+	color: #198acc;
+}
+
+.user__profile-settings .fa-trash-alt {
+	color: #fc080c;
+}
+
+/* End User-List */
+
+/* Start Footer */
+
+footer {
+	font-size: 0.9rem;
+	background: linear-gradient(to right, #287d92, #b7e3e4);
+	margin-top: 5em;
+	padding: 1% 7%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #015270;
+}
+
+/* End Footer */
