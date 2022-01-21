@@ -9,7 +9,11 @@
   "author": "Juan, Kisbayu, Avinska",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "ejs": "^3.1.6",
-    "express": "^4.17.2"
+    "epress": "^0.0.1-security",
+    "express": "^4.17.2",
+    "method-override": "^3.0.0",
+    "uuid": "^8.3.2"
   }
 }
