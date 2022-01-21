@@ -12,12 +12,10 @@ app.use(express.static(__dirname + "/public/"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const data = JSON.parse(fs.readFileSync("./data/users.json", "utf-8"));
-
 //Show welcome page
 app.get("/", (req, res) => {
-	res.render("welcome.ejs", {headTitle: "User List"})
-})
+	res.render("welcome.ejs", { headTitle: "User List" });
+});
 
 //Read aka show data
 app.get("/user", (req, res) => {

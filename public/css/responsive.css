@@ -12,20 +12,9 @@
 
 	/* Start Footer */
 	footer {
-		margin-top: 10rem;
+		margin-top: 12rem;
 	}
 	/* End Footer */
-
-	/* Start Form */
-	.button-group {
-		flex-direction: row;
-		justify-content: center;
-	}
-
-	.btn-submit {
-		margin-right: 1.7em;
-	}
-	/* End Form */
 }
 
 /* Resolusi Laptop Sedang */
