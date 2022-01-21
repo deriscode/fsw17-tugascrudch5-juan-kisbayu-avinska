@@ -8,17 +8,17 @@
 
 		<!-- Start User-List -->
 		<section id="user-list" class="container">
-			<h1 class="text-center py-3 user__main-title"><%= bodyTitle %></h1>
+			<h1 class="text-center pb-3 user__main-title"><%= bodyTitle %></h1>
 			<a href="/user/new" class="user__add-new">
 				<button type="button" class="btn btn-add">
 					<i class="fas fa-plus"></i>
-					<span class="text-white">Add New User</span>
+					<span class="text-white text-center">Add New User</span>
 				</button>
 			</a>
 
 			<!-- Start User-Profile -->
 			<div class="row user__profile justify-content-lg-around">
-				<% users.forEach(user => { %>
+				<% if (users.length === 0) { %> <%- include('partial/banner') %> <% } else { %> <% users.forEach(user => { %>
 				<div class="col-10 col-md-5 col-lg-3 user__profile-card">
 					<div class="user__profile-card-top text-center">
 						<img src="/images/male_avatar.svg" alt="Avatar" class="img-fluid" />
@@ -26,7 +26,7 @@
 						<small><%=user.email%></small>
 					</div>
 					<div class="user__profile-card-body mt-3 px-3">
-						<p>Password: <%=user.password %></p>
+						<p>Password: <%=user.password.substring(0, 10) %></p>
 						<div class="user__profile-settings text-center row">
 							<a href="/user/<%=user.id%>/edit" title="EDIT" class="col-6"><i class="fas fa-edit"></i></a>
 							<form action="/user/<%=user.id%>/delete" method="post" class="col-6">
@@ -35,7 +35,7 @@
 						</div>
 					</div>
 				</div>
-				<% }) %>
+				<% }) %> <% } %>
 			</div>
 			<!-- End User-Profile -->
 		</section>

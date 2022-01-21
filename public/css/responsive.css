@@ -1,10 +1,20 @@
 /* Resolusi Tablet */
 @media (min-width: 767.98px) {
 	/* Start User-List */
+	#user-list {
+		padding: 9.5rem 0;
+	}
+
 	.user__profile-card {
 		margin: 1.5em 1.2em;
 	}
 	/* End User-List */
+
+	/* Start Footer */
+	footer {
+		margin-top: 10rem;
+	}
+	/* End Footer */
 
 	/* Start Form */
 	.button-group {
@@ -17,3 +27,10 @@
 	}
 	/* End Form */
 }
+
+/* Resolusi Laptop Sedang */
+@media (min-width: 1199.98px) {
+	#user-list {
+		padding: 3.5rem 0;
+	}
+} ;
