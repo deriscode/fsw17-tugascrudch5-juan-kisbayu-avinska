@@ -1,1 +1,20 @@
-[]
+[
+	{
+		"id": "b70c69d9-4d72-4d0a-9216-634835c9b01f",
+		"name": "Avinska Tirza",
+		"email": "avinska@binar.co.id",
+		"password": "$2b$10$dgzOHwXpdlo0xlr8myFtluj1AfJ8ODSr8C3lLQ7DHVOSRNL/j.jJe"
+	},
+	{
+		"id": "836531ee-1047-4098-88ee-9fb87cc9ec19",
+		"name": "Juan Deris",
+		"email": "juan@binar.co.id",
+		"password": "$2b$10$UPuLBBj2xeR0wlYcKbpGIOUMK1u5GPOLo4uZ/YP7yzT8bCW0Gpx0i"
+	},
+	{
+		"id": "a04aae65-60bb-49e1-bdfb-3a895efc1d87",
+		"name": "Kisbayu",
+		"email": "kisbayu@binar.co.id",
+		"password": "$2b$10$YZPLkFl2zu3K0zPHWnWXsO/P2Q67ICUgD2UO9RopkYGH3nJW7P/12"
+	}
+]
