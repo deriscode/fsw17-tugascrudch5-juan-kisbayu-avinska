@@ -48,15 +48,17 @@ app.put('/user/:id', (req, res) => {
 })
 
 //Delete Data
-app.delete('/user/:id/delete', (req,res)=>{
+app.post('/user/:id/delete',(req,res)=>{
 	const {id} = req.params
 
 	const deletedList = data.filter((i)=>{
 		return i.id != id
 	})
 
-	fs.writeFileSync("./data/users.json", JSON.stringify(deletedList, null, 4));
-	res.redirect("/user");
+	fs.writeFileSync("./data/users.json", JSON.stringify(deletedList, null, 4))
+	
+	res.redirect('back')
+	
 })
 
 const PORT = 5000;
