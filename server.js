@@ -14,7 +14,7 @@ app.use(express.json());
 
 //Show welcome page
 app.get("/", (req, res) => {
-	res.render("welcome.ejs", { headTitle: "User List" });
+	res.render("welcome.ejs", { headTitle: "Welcome!" });
 });
 
 //Read aka show data
