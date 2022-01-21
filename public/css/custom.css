@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans&display=swap");
+
+body {
+	font-family: "PT Sans", sans-serif;
+}
+
 .container-fluid {
 	padding: 1% 7%;
 }
@@ -71,6 +77,10 @@ a {
 
 .user__profile-card-body {
 	font-size: 1.2rem;
+}
+
+.user__profile-card-body p {
+	overflow: hidden;
 }
 
 .user__profile-settings {

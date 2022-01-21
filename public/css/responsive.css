@@ -5,4 +5,15 @@
 		margin: 1.5em 1.2em;
 	}
 	/* End User-List */
+
+	/* Start Form */
+	.button-group {
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.btn-submit {
+		margin-right: 1.7em;
+	}
+	/* End Form */
 }
