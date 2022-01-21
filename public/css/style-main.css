@@ -22,17 +22,23 @@ a {
 
 /* Start User-List */
 
+#user-list {
+	padding: 6rem 1rem;
+}
+
 .user__main-title {
 	color: #015270;
+}
+
+.user__banner-img {
+	width: auto;
+	height: auto;
 }
 
 .btn-add {
 	padding: 0 15px 0 0;
 	border-radius: 2rem;
 	background-color: #88c59b;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .btn-add:focus {
