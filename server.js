@@ -47,6 +47,18 @@ app.put('/user/:id', (req, res) => {
 	res.redirect('/user')
 })
 
+//Delete Data
+app.delete('/user/:id/delete', (req,res)=>{
+	const {id} = req.params
+
+	const deletedList = data.filter((i)=>{
+		return i.id != id
+	})
+
+	fs.writeFileSync("./data/users.json", JSON.stringify(deletedList, null, 4));
+	res.redirect("/user");
+})
+
 const PORT = 5000;
 app.listen(PORT, () => {
 	console.log(`Server is running at port ${PORT}`);
