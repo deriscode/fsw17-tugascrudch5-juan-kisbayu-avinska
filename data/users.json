@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "id": "06fae1e6-78d6-4a02-9b55-e2ba5d6c9bf0",
+        "name": "Avinska Tirza",
+        "email": "avinskat@gmail.com",
+        "password": "$2b$10$zB0XRAq2p8arcU5h/Z1M4.oUB9L9Yd.sctvDT2tvlubILqE67GshC"
+    },
+    {
+        "id": "9f2fb4e6-f717-41a2-862f-409a087039c1",
+        "name": "Avinska Tirza",
+        "email": "avinskat@gmail.com",
+        "password": "$2b$10$Tgdmvn5vwI7xCzt9Fmgn/ekEoNci02YAoDdHHK3aBU2xjCO2zV0UW"
+    }
+]

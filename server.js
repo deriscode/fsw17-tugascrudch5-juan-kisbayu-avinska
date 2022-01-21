@@ -48,10 +48,11 @@ app.get("/user/:id/edit", (req, res) => {
 	res.render("edit.ejs", { user: foundUser, headTitle: "Edit User", bodyTitle: "Edit User" });
 });
 
-app.put("/user/:id", (req, res) => {
+app.put("/user/:id", async (req, res) => {
 	const { id } = req.params;
 	const { name, email, password } = req.body;
-	const editedUser = { id, name, email, password };
+	const hashedPass = await bcrypt.hash(password, 10);
+	const editedUser = { id, name, email, password: hashedPass };
 	const data = JSON.parse(fs.readFileSync("./data/users.json", "utf-8"));
 	const foundUserIndex = data.findIndex((user) => user.id === id);
 	data[foundUserIndex] = editedUser;
