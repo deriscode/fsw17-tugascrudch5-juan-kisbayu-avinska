@@ -1,14 +1,20 @@
 [
     {
-        "id": "06fae1e6-78d6-4a02-9b55-e2ba5d6c9bf0",
+        "id": "b70c69d9-4d72-4d0a-9216-634835c9b01f",
         "name": "Avinska Tirza",
-        "email": "avinskat@gmail.com",
-        "password": "$2b$10$zB0XRAq2p8arcU5h/Z1M4.oUB9L9Yd.sctvDT2tvlubILqE67GshC"
+        "email": "avinska@binar.co.id",
+        "password": "$2b$10$dgzOHwXpdlo0xlr8myFtluj1AfJ8ODSr8C3lLQ7DHVOSRNL/j.jJe"
     },
     {
-        "id": "9f2fb4e6-f717-41a2-862f-409a087039c1",
-        "name": "Avinska Tirza",
-        "email": "avinskat@gmail.com",
-        "password": "$2b$10$Tgdmvn5vwI7xCzt9Fmgn/ekEoNci02YAoDdHHK3aBU2xjCO2zV0UW"
+        "id": "836531ee-1047-4098-88ee-9fb87cc9ec19",
+        "name": "Juan Deris",
+        "email": "juan@binar.co.id",
+        "password": "$2b$10$UPuLBBj2xeR0wlYcKbpGIOUMK1u5GPOLo4uZ/YP7yzT8bCW0Gpx0i"
+    },
+    {
+        "id": "a04aae65-60bb-49e1-bdfb-3a895efc1d87",
+        "name": "Kisbayu",
+        "email": "kisbayu@binar.co.id",
+        "password": "$2b$10$YZPLkFl2zu3K0zPHWnWXsO/P2Q67ICUgD2UO9RopkYGH3nJW7P/12"
     }
 ]
